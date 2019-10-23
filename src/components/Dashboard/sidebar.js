@@ -15,7 +15,13 @@ class Sidemenu extends React.Component {
     return (
       <Sidebar
         sidebar={
-          <div className='d1'> Dashboard </div>
+          <>
+          <div className='d1 container'> Dashboard </div>
+
+          <div>
+          <button className='btn btn-block btn-info'>Contacts</button>
+          </div>
+          </>
         }
         open={true}
         onSetOpen={this.onSetSidebarOpen}
