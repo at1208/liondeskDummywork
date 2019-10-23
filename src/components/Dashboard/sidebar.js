@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Sidebar from "react-sidebar";
 import './sidebar.css'
+import { Link } from 'react-router-dom'
 
 
 class Sidemenu extends React.Component {
@@ -19,7 +20,7 @@ class Sidemenu extends React.Component {
           <div className='d1 container'> Dashboard </div>
 
           <div>
-          <button className='btn btn-block btn-info'>Contacts</button>
+          <Link to='/dashboard/contact'><button className='btn btn-block btn-info'>Contacts</button></Link>
           </div>
           </>
         }
