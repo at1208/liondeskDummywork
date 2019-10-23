@@ -5,7 +5,8 @@ const Header = () => {
   return <div className='container-fluid c1'>
 
           <h3 className='c2'>Lion Desk</h3>
-     
+     <div className='container-fluid c3'>
+     </div>
      </div>
 }
 export default Header;
