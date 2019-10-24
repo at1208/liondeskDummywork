@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './header'
-import Sidebar from './sidebar'
+import Header from './Header/header'
+
 
 const Dashboard = () => {
   return <div className='container-fluid'>
   <Header />
-  <Sidebar />
+
 
 
 
