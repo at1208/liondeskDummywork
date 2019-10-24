@@ -6,7 +6,7 @@ import Header from '../header'
 const Login  = () => {
   return <div className='container-fluid'>
   <Header />
-  <div className='card container b1 col-md-5'>
+  <div className='card container b1 col-md-4'>
          <h1 className='text-center'>LOGIN</h1>
           <label>Username</label>
           <input className='b3 text-center' placeholder='Please Enter your Username'/>

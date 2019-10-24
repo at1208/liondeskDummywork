@@ -5,16 +5,16 @@ table {
 
 }
 th{
-  background-color:#c94f7c
+  background-color:#00857c
 }
 td, th {
-  border: 1px solid #f8bbd0;
+  border: 1px solid #4f9a94;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #fce4ec;
+  background-color: #80cbc4;
 }
 .j1{
   margin-top: 20px;

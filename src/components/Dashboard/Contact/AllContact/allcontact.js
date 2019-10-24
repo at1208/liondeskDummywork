@@ -43,7 +43,7 @@ return Data;
 
 
   render(){
-    return <div className='container text-center card j2'>
+    return <div className='container text-center card  col-md-5 j2'>
     <div className='container'>
     <h1 className='j1'>All Contacts</h1>
     <table className='j3'>
