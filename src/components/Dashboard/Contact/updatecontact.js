@@ -45,7 +45,7 @@ updateCustomer = (e) => {
 
      <div>
       <label className='k2'>ID</label>
-      <input  className='k3 text-center' type='text' placeholder='Enter Customer ID' onChange = { e => this.setState({  ID: e.target.value })} value={this.state.CustomerID}/>
+      <input  className='k3 text-center' type='text' placeholder='Enter   ID' onChange = { e => this.setState({  ID: e.target.value })} value={this.state.CustomerID}/>
      </div>
 
      <div>

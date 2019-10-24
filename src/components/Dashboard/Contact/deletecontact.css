@@ -10,14 +10,14 @@
 .l2{
   margin: 5px;
   width: 150px;
-  background-color: rgb(99, 62, 224);
+  background-color: #c94f7c;
   color: white;
   font-weight: bold;
 
 }
 .l4{
   color: white;
-  background-color: red;
+  background-color: #ff3d00;
   margin-bottom: 20px;
 }
 .l5{

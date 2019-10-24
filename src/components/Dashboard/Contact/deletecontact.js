@@ -38,7 +38,7 @@ class DeleteContacts extends Component {
 
      <div>
       <label className='l2'>Customer ID</label>
-      <input className='l3 text-center' type='text' placeholder='Enter Customer ID' onChange = { e => this.setState({ ID: e.target.value })} value={this.state.ID} />
+      <input className='l3 text-center' type='text' placeholder='Enter ID' onChange = { e => this.setState({ ID: e.target.value })} value={this.state.ID} />
      </div>
 
   <button className='btn-sm btn-danger l4' onClick={ this.deleteCustomer }>Delete</button>

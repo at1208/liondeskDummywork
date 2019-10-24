@@ -51,7 +51,7 @@ class AddCustomer extends Component {
 
            <div>
             <label className='i2'>Name</label>
-            <input  className='i3 text-center' type='text' placeholder='Enter Customer Name' onChange = { e => this.setState({ CustomerName: e.target.value })} value={this.state.CustomerName} />
+            <input  className='i3 text-center' type='text' placeholder='Enter Name' onChange = { e => this.setState({ CustomerName: e.target.value })} value={this.state.CustomerName} />
            </div>
 
            <div>
