@@ -5,10 +5,10 @@ import App from './components/app';
 import Login from './components/Login/login'
 import Dashboard from './components/Dashboard/dashboard'
 import Contact from './components/Dashboard/Contact/contact'
-import AddContact from './components/Dashboard/Contact/addcontact'
-import AllContact from './components/Dashboard/Contact/allcontact'
-import UpdateContact from './components/Dashboard/Contact/updatecontact'
-import DeleteContact from './components/Dashboard/Contact/deletecontact'
+import AddContact from './components/Dashboard/Contact/AddContact/addcontact'
+import AllContact from './components/Dashboard/Contact/AllContact/allcontact'
+import UpdateContact from './components/Dashboard/Contact/UpdateContact/updatecontact'
+import DeleteContact from './components/Dashboard/Contact/DeleteContact/deletecontact'
 
 
 ReactDOM.render(
